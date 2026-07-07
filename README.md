@@ -117,17 +117,37 @@ pip install -r requirements.txt
 
 ## ▶️ Run the Project
 
-Train the models:
+
+
+
+### Train the Model
 
 ```bash
-python model.py
+python datascience.py
 ```
 
-Run the prediction program:
+### Run Command-Line Prediction
 
 ```bash
 python main.py
 ```
+
+### Run GUI
+
+```bash
+python gui.py
+```
+
+---
+
+## Future Improvements
+
+- Train on title + article text
+- Deploy using Flask or Streamlit
+- Add Deep Learning models
+- Improve UI
+- Support online news article prediction
+
 
 Enter a news article when prompted.
 
@@ -156,14 +176,7 @@ Output:
 
 ---
 
-## 📈 Future Improvements
 
-* Develop a web application using Flask or Django
-* Deploy the model online
-* Add Deep Learning models such as LSTM or BERT
-* Improve text preprocessing
-* Build a modern graphical user interface
-* Evaluate using Precision, Recall, and F1-score
 
 ---
 
